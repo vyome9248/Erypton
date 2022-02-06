@@ -29,21 +29,21 @@ const Services = () => {
             <div className='flex-1 flex flex-col justify-start items-between'>
                 <ServiceCard 
                     color="bg-[#F84550]"
-                    title="Health Stake"
+                    title="Creator Royalties"
                     icon = {<RiHeart2Fill fontSize={21} className="text-white" />}
-                    subtitle="Stake it to make it"
+                    subtitle="Earn fan royalties from your creator's content"
                 />
                 <ServiceCard 
                     color="bg-[#8945F8]"
-                    title="Transaction Check"
+                    title="Token gated content"
                     icon = {<BiSearchAlt fontSize={21} className="text-white" />}
-                    subtitle="End to End wallet checks for Transaction viability"
+                    subtitle="Exclusive content curated for fans"
                 />
                 <ServiceCard 
                     color="bg-[#2952E3]"
                     title="NFT Avatars"
                     icon = {<BsShieldFillCheck fontSize={21} className="text-white" />}
-                    subtitle="Mint, store and flaunt your NFT's with minimal gas fees"
+                    subtitle="Exclusive NFT badges for fans"
                 />
                 
             </div>
