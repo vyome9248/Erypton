@@ -36,10 +36,11 @@ const Welcome = () => {
             <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
                 <div className="flex flex-1 justify-start flex-col flex-row mf:mr-10">
                     <h1 className="text-3xl sm:text-4xl text-white text-gradient py-1">
-                        ERYPTON 
+                        Justin Bieber 
                     </h1>
                     <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-                        Blockchain Institution. Future is decentralized.
+                    Justin Drew Bieber is a Canadian singer. He was discovered by American record executive Scooter Braun and signed with RBMG Records in 2008, gaining recognition with the release of his debut seven-track EP My World and soon establishing himself as a teen idol.
+
                     </p>
                     {!currentAccount && (
                     <button
@@ -52,18 +53,21 @@ const Welcome = () => {
                     )}
                     <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
                         <div className={`rounded-tl-2xl ${commonStyles}`}>
-                            Trustless
+                            Two Grammy Awards
+
                         </div>
-                        <div className={commonStyles}>Autonomous</div>
+                        <div className={commonStyles}>Latin Grammy Award</div>
                         <div className={`rounded-tr-2xl ${commonStyles}`}>
-                            Ethereum
+                            1 Billion views
                         </div>
                         <div className={`rounded-bl-2xl ${commonStyles}`}>
-                            Web 3.0
+                                100+songs
+
                         </div>
-                        <div className={commonStyles}>Low fees</div>
+                        <div className={commonStyles}>270 million followers</div>
                         <div className={`rounded-br-2xl ${commonStyles}`}>
-                            Blockchain
+                            83.3 million listeners
+
                         </div>
                     </div>
                 </div>
@@ -79,9 +83,10 @@ const Welcome = () => {
 
                             </div>
                             <div>
-                                <p className="text-white font-light text-sm">
-                                    {shortenAddress(currentAccount)}
+                                <p className="text-[11.5px] text-white font-light text-sm">
+                                    {"0x472D1ca606957C6eF291Dc47296Fa90a3824df8C"}
                                 </p>
+                                
                                 <p className="text-white font-semibold text-lg mt-1">
                                     Ethereum
                                 </p>
@@ -93,7 +98,7 @@ const Welcome = () => {
 
                     <div className="p-5 sm:w-96 w-full flex-col justify-start items-center blue-glassmorphism">
                         <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange} />
-                        <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange} />
+                        <Input placeholder="Amount (MATIC)" name="amount" type="number" handleChange={handleChange} />
                         <Input placeholder="Keyword (Gif)" name="keyword" type="text" handleChange={handleChange} />
                         <Input placeholder="Enter Message" name="message" type="text" handleChange={handleChange} />
                         <div className="h-[1px] w-full bg-gray-400 my-2" />
